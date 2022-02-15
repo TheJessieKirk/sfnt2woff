@@ -1,4 +1,4 @@
-# sfnt2woff
+# sfnt2woff README
 This is a mirror of Jonathan Kew's *sfnt2woff* tool.
 
 It converts font file formats from SFNT (OpenType and TrueType) to WOFF format.
@@ -7,11 +7,7 @@ Jonathan Kew's website has been down since 2017, but an archived version is avai
 
 ## License
 
-Jonathan Kew licensed *sfnt2woff* under any the following:
-
-* [GNU General Public License, version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html);
-* [GNU Library General Public License, version 2.0](https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html); and
-* [Mozilla Public License 1.1](https://www.mozilla.org/en-US/MPL/1.1/)
+See [LICENSE.md](https://github.com/TheJessieKirk/sfnt2woff/blob/main/LICENSE.md) for details.
 
 ## Copyright
 
