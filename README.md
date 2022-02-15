@@ -1,7 +1,7 @@
 # *sfnt2woff* README
 This is a mirror of Jonathan Kew's *sfnt2woff* tool.
 
-It converts font file formats from SFNT (OpenType and TrueType) to WOFF format and *vice-versa*.<br />
+It converts font file from SFNT (OpenType and TrueType) formats to WOFF format and *vice-versa*.<br />
 (Note: it can't handle WOFF2 files.)
 
 Jonathan Kew's website has been down since 2017, but an archived version is available from the [Internet Archive](https://web.archive.org/web/https://people.mozilla.org/~jkew/woff/).
