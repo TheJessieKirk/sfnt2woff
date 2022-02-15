@@ -1,11 +1,43 @@
 # *sfnt2woff* README
-This is a mirror of Jonathan Kew's *sfnt2woff* tool.
+This is a mirror and build of Jonathan Kew's *sfnt2woff* tool.
 
-It converts font files from SFNT (OpenType and TrueType) formats to WOFF format and *vice-versa*.<br />
-(Note: it can't handle WOFF2 files.)
+*sfnt2woff* and *woff2sfnt* are built for *x86_64-linux-pc-gnu* hosts.
+
+They converts font files from SFNT (OpenType and TrueType) formats to WOFF format and *vice-versa*.<br />
+(Note: they can't handle WOFF2 files.)
 
 Jonathan Kew's website has been down since 2017, but an archived version is available from the [Internet Archive](https://web.archive.org/web/https://people.mozilla.org/~jkew/woff/).
 
+## Usage
+
+### Converting an SFNT font to a WOFF font
+
+      ./sfnt2woff [-v <maj>.<min> [-m <metadata.xml>] [-p <private.dat>] <sfntfile>
+      
+Options:
+
+  <code>-v \<maj>.\<min></code> - set font version number (major and minor, both integers).<br />
+  <code>-m \<metadata.xml></code> - inlude metadata from <metadata.xml> (not validated).<br />
+  <code>-p \<private.dat></code> - include private data block.<br />
+    
+Parameters:
+    
+  <code>\<sfntfile></code> - OTF or TTF file to be converted to WOFF.
+
+### Converting a WOFF font to an SFNT font
+
+      ./woff2sfnt [-v | -m  | -p] <wofffile>
+
+Options (only one option can be specified at a time):
+
+  <code>-v \<maj>.\<min></code> - write font version to stdout, instead of converting WOFF file.<br />
+  <code>-m \<metadata.xml></code> - write WOFF metadata block to stdout, instead of converting WOFF file.<br />
+  <code>-p \<private.dat></code> - write WOFF private data block to stdout, instead of converting WOFF file.<br />
+
+Parameters:
+    
+  <code>\<wofffile></code> - WOFF file to be converted to OTF.
+    
 ## Mirror Differences
 
 The following files are new and were not in the original *sfnt2woff* release:
@@ -15,6 +47,11 @@ The following files are new and were not in the original *sfnt2woff* release:
 * LICENSE-mpl-1-1
 * LICENSE.md
 * README.md
+* sfnt2woff
+* sfnt2woff.o
+* woff.o
+* woff2sfnt
+* woff2sfnt.o
 
 All other files are original and unedited.
 
