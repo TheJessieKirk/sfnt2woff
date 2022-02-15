@@ -12,31 +12,31 @@ Jonathan Kew's website has been down since 2017, but an archived version is avai
 
 ### Converting an SFNT font to a WOFF font
 
-      ./sfnt2woff [-v <maj>.<min> [-m <metadata.xml>] [-p <private.dat>] <sfntfile>
+<code>./sfnt2woff [-v \<maj>.\<min> [-m \<metadata.xml>] [-p \<private.dat>] \<sfntfile></code>
       
 Options:
 
-  <code>-v \<maj>.\<min></code> - set font version number (major and minor, both integers).<br />
-  <code>-m \<metadata.xml></code> - inlude metadata from <metadata.xml> (not validated).<br />
-  <code>-p \<private.dat></code> - include private data block.<br />
+<code>-v \<maj>.\<min></code> - set font version number (major and minor, both integers).<br />
+<code>-m \<metadata.xml></code> - inlude metadata from <metadata.xml> (not validated).<br />
+<code>-p \<private.dat></code> - include private data block.<br />
     
 Parameters:
     
-  <code>\<sfntfile></code> - OTF or TTF file to be converted to WOFF.
+<code>\<sfntfile></code> - OTF or TTF file to be converted to WOFF.
 
 ### Converting a WOFF font to an SFNT font
 
-      ./woff2sfnt [-v | -m  | -p] <wofffile>
+<code>./woff2sfnt [-v | -m  | -p] \<wofffile></code>
 
 Options (only one option can be specified at a time):
 
-  <code>-v \<maj>.\<min></code> - write font version to stdout, instead of converting WOFF file.<br />
-  <code>-m \<metadata.xml></code> - write WOFF metadata block to stdout, instead of converting WOFF file.<br />
-  <code>-p \<private.dat></code> - write WOFF private data block to stdout, instead of converting WOFF file.<br />
+<code>-v \<maj>.\<min></code> - write font version to stdout, instead of converting WOFF file.<br />
+<code>-m \<metadata.xml></code> - write WOFF metadata block to stdout, instead of converting WOFF file.<br />
+<code>-p \<private.dat></code> - write WOFF private data block to stdout, instead of converting WOFF file.<br />
 
 Parameters:
     
-  <code>\<wofffile></code> - WOFF file to be converted to OTF.
+<code>\<wofffile></code> - WOFF file to be converted to OTF.
     
 ## Mirror Differences
 
