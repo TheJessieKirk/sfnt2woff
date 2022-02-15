@@ -23,7 +23,7 @@ See [LICENSE.md](https://github.com/TheJessieKirk/sfnt2woff/blob/main/LICENSE.md
 
 ## Copyright
 
-I don't own this software and I'm simply providing a mirror of it, but I'm Jessie Kirk. Anyway:
+I don't own this software and I'm simply providing a mirror of it, but I'm Jessie Kirk. Anyways:
 
-* *sfnt2woff* is Copyright © 2009, Trademark ™ and/or Registered Trademark ® Jonathan Kew and [Mozilla Corporation].
+* *sfnt2woff* is Copyright © 2009, Trademark ™ and/or Registered Trademark ® Jonathan Kew and [Mozilla Corporation](https://www.mozilla.org/).
 * *WOFF* is Copyright © 2009, Trademark ™ and/or Registered Trademark ® [LettError Type/Erik van Blokland](https://letterror.com/), [Microsoft Corporation](https://www.microsoft.com/), [Mozilla Corporation](https://www.mozilla.org/), [Opera](https://www.opera.com/) and [Type Supply LLC/Tal Leming](https://typesupply.com/).
