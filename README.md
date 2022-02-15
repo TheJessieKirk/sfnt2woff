@@ -3,7 +3,7 @@ This is a mirror and build of Jonathan Kew's *sfnt2woff* tool.
 
 *sfnt2woff* and *woff2sfnt* are built for *x86_64-linux-pc-gnu* hosts.
 
-They converts font files from SFNT (OpenType and TrueType) formats to WOFF format and *vice-versa*.<br />
+They convert font files from SFNT (OpenType and TrueType) formats to WOFF format and *vice-versa*.<br />
 (Note: they can't handle WOFF2 files.)
 
 Jonathan Kew's website has been down since 2017, but an archived version is available from the [Internet Archive](https://web.archive.org/web/https://people.mozilla.org/~jkew/woff/).
