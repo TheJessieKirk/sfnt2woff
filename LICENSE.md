@@ -1,4 +1,4 @@
-# *sfnt2woff* License
+# *sfnt2woff* LICENSE
 Jonathan Kew licensed *sfnt2woff* under any the following:
 
 * GNU General Public License, version 2.<br />
